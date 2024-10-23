@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav1{
+    width: 100vw;
+    height: 11vh;
+    position: absolute;
+    
+    background: transparent;
+	backdrop-filter: blur(10px);
+
+}
+.navition{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+   
+    
+}
+.navition a{
+    margin-top: 5mm;
+    text-decoration: none;
+    color: white;
+}
+.navition a:hover{
+    border-radius: 35%;
+    width: 10vw;
+    height: 5vh;
+    background: gray;
+    text-align: center;
+    padding-top: 0.5%;
+    font-weight: 150px;
+   
+   
+}
+.main_logo{
+    width:15vw;
+    height: 10vh;
+    border-radius: 5%;
+    overflow: hidden;
+    float: left;
+   
+
+}
+#medicine{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    
+}
+#second_par{
+    width: 100%;
+    height: 175vh;
+    border: 2px solid black;
+    position: relative;
+    background-color: aquamarine;
+    
+   
+}
+
+#Purpose_list{
+    width: 60vw;
+    height: 75vh;
+    overflow-x: hidden;
+     overflow-y: hidden; 
+    padding: 2cm;
+    border: 2px solid black;
+    text-align: start;
+    padding-top: 0%;
+    
+   
+    background: linear-gradient(to right,#1abc9c,#3498db);
+    background-position: center;
+    background-size: cover;
+    
+    margin-top: 3%;
+    border-radius: 5%;
+    margin-left:3% ;
+    
+}
+
+#Purpose_list li{
+    
+    margin-left: 2%;
+   
+}
+#detail{
+   margin-left: 10cm;
+   width: 10vw;
+   margin-top: 5%;
+  
+   
+}
+#detail a{
+ text-decoration: none;
+   color: black;
+}
+#second_sec{
+    width: 60vw;
+    height: 75vh;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    position: absolute;
+    margin-top: 5%;
+    right: 10%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: linear-gradient(to right,#1abc9c,#3498db);
+}
+#Third_par div
+{
+    margin-top: 5%;
+    margin-right: 15%;
+    
+    
+}
+#Third_par{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+   
+}
+
+
+#Final_par{
+    width: 100%;
+    height: 20vh;
+    border: 2px solid black;
+
+}
+#second_head{
+    margin: 3%;
+
+}
+#second_sec  h3,p{
+    margin: 2%;
+    
+}
+#second_detail a{
+    text-decoration: none;
+    color: black;
+    
+}
+#second_detail{
+    margin-left: 10cm;
+   width: 10vw;
+   margin-left: 30pc;
+  
+   
+}
+#detail  :hover{
+    color: red;
+}
+#second_detail  :hover{
+    color: red;
+}
+
